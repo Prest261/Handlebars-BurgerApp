@@ -60,7 +60,8 @@ var orm = {
         queryString += printQuestionMarks(vals.length);
         queryString += ') ';
 
-        console.log(queryString);
+        console.log('syd', queryString);
+        console.log('vals', vals);
 
         connection.query(queryString, vals, function(err, result) {
             if (err) {
@@ -73,13 +74,14 @@ var orm = {
     // An example of objColVals would be {burger_name: hamburger, devoured: true}
     update: function(table, objColVals, condition, cb) {
         var queryString = 'UPDATE ' + table;
+        console.log('obj, vals', objColVals, condition);
 
         queryString += ' SET ';
         queryString += objToSql(objColVals);
         queryString += ' WHERE ';
         queryString += condition;
 
-        console.log(queryString);
+        console.log('put', queryString);
         connection.query(queryString, function(err, result) {
             if (err) {
                 throw err;
