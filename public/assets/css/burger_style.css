@@ -1,0 +1,79 @@
+body {
+    background: url('../img/amirali-mirhashemian-pucP6jZSyV4-unsplash.jpg');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    background-color: rgb(255, 255, 0, 0.25);
+    padding: 10px;
+}
+
+
+/* .column1 {
+    float: left;
+} */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#notEaten {
+    padding: 20px;
+    text-align: center;
+}
+
+#eaten {
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    /* padding-inline-start: 10px; */
+    text-align: center;
+    /* float: right; */
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    color: darkred;
+    padding: 3px;
+}
+
+.create-form {
+    text-align: center;
+    font-weight: bold;
+}
+
+#newBurger {
+    padding: 8px;
+    color: white;
+    background-color: darkred;
+    border: none;
+}
+
+.change-devoured {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.delete-burger {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.burgerForm {
+    margin-bottom: 40px;
+}
